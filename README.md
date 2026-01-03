@@ -23,12 +23,14 @@ This project focuses not only on accuracy, but also on model trust, uncertainty 
 
 ## 🖼️ Demo
 
-Add screenshots after running the app locally.
+Below is a short demo of the application workflow.
 
-Recommended screenshots:
-- App home screen
-- Prediction with confidence bar
-- Grad-CAM overlay visualization
+![App Demo](assets/demo.gif)
+
+The demo shows:
+- Uploading a leaf image
+- Model prediction with confidence
+- Grad-CAM explanation highlighting influential regions
 
 ---
 
@@ -139,12 +141,6 @@ http://localhost:8501
 - Proper hook and gradient management is critical in PyTorch
 - Transfer learning outperforms training from scratch for vision tasks
 - UX design improves trust in ML-based applications
-
----
-
-## 🎯 Interview One-Liner
-
-I built a plant disease detection system using ResNet18 and validated its predictions using Grad-CAM, focusing on explainability, uncertainty awareness, and real-world deployment considerations.
 
 ---
 
